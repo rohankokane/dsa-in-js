@@ -84,3 +84,19 @@ export function validAnagram2(str1, str2) {
 
 //avoided nested loops
 //any time we need compare multiple datas anagrams, arrays of numbers
+
+export function areThereDuplicates() {
+  if (arguments.length === 0) return false;
+  let lookup = {};
+  for (let val of arguments) {
+    lookup[val] = ++lookup[val] || 1;
+    if (lookup[val] > 1) return true;
+  }
+  return false;
+}
+//O(n)
+//O(n)
+
+// areThereDuplicates(1,2,3)// false
+// areThereDuplicates(1,2,2)// true
+// areThereDuplicates('a','b','c','a')// true
