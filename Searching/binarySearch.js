@@ -8,11 +8,9 @@ export function binarySearch(arr, num) {
   while (left <= right) {
     middle = Math.floor((right + left) / 2);
     if (arr[middle] === num) return middle;
-    if (arr[middle] > num) {
-      right = middle - 1;
-    } else {
-      left = middle + 1;
-    }
+    if (arr[middle] > num) right = middle - 1;
+    else left = middle + 1;
   }
   return -1;
 }
+// O(log n)
