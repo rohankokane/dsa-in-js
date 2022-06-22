@@ -8,12 +8,7 @@ export function selectionSort(arr) {
       if (arr[j] < arr[lowest]) lowest = j;
       console.log(i, j, lowest, [...arr]);
     }
-    if (i !== lowest) {
-      swap(arr, lowest, i);
-      // let temp = arr[lowest];
-      // arr[lowest] = arr[i];
-      // arr[i] = temp;
-    }
+    if (i !== lowest) swap(arr, lowest, i);
   }
   return arr;
 }
