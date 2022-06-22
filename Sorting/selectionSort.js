@@ -17,3 +17,7 @@ export function selectionSort(arr) {
   }
   return arr;
 }
+//O(n^2)
+
+//when you want to minimize the no of swaps
+// when you are worried about writing to memory
