@@ -8,6 +8,8 @@ import { maxSubarraySum } from "./ProblemSolving/slidingWindow";
 import { bubbleSort } from "./Sorting/bubbleSort";
 import { insertionSort } from "./Sorting/insertionSort";
 import { mergeSort } from "./Sorting/mergeSort";
+import { quickSort } from "./Sorting/quickSort";
+import { radixSort } from "./Sorting/radixSort";
 import { selectionSort } from "./Sorting/selectionSort";
 
 // console.log(validAnagram2("anagram", "nagaram"));
@@ -24,4 +26,6 @@ import { selectionSort } from "./Sorting/selectionSort";
 // console.log(insertionSort([2, 3, 4, 5, 1]));
 
 //
-console.log(mergeSort([9, 2, 8, 4, 5, 1]));
+// console.log(mergeSort([9, 2, 8, 4, 5, 1]));
+// console.log(quickSort([4, 8, 2, 1, 5, 7, 6, 3]));
+console.log(radixSort([4, 8, 2964, 1, 56, 7, 63, 333]));
