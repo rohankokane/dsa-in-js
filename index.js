@@ -1,16 +1,18 @@
-import { validAnagram2 } from "./ProblemSolving/frequencyCounter";
-import {
-  countUniqueValues,
-  countUniqueValues1,
-  sumZero
-} from "./ProblemSolving/mutilplePointer";
-import { maxSubarraySum } from "./ProblemSolving/slidingWindow";
-import { bubbleSort } from "./Sorting/bubbleSort";
-import { insertionSort } from "./Sorting/insertionSort";
-import { mergeSort } from "./Sorting/mergeSort";
-import { quickSort } from "./Sorting/quickSort";
-import { radixSort } from "./Sorting/radixSort";
-import { selectionSort } from "./Sorting/selectionSort";
+// import { validAnagram2 } from "./ProblemSolving/frequencyCounter";
+// import {
+//   countUniqueValues,
+//   countUniqueValues1,
+//   sumZero
+// } from "./ProblemSolving/mutilplePointer";
+// import { maxSubarraySum } from "./ProblemSolving/slidingWindow";
+// import { bubbleSort } from "./Sorting/bubbleSort";
+// import { insertionSort } from "./Sorting/insertionSort";
+// import { mergeSort } from "./Sorting/mergeSort";
+// import { quickSort } from "./Sorting/quickSort";
+// import { radixSort } from "./Sorting/radixSort";
+// import { selectionSort } from "./Sorting/selectionSort";
+
+import { SinglyLinkedList } from "./DataStructures/SinglyLinkedList";
 
 // console.log(validAnagram2("anagram", "nagaram"));
 
@@ -28,4 +30,20 @@ import { selectionSort } from "./Sorting/selectionSort";
 //
 // console.log(mergeSort([9, 2, 8, 4, 5, 1]));
 // console.log(quickSort([4, 8, 2, 1, 5, 7, 6, 3]));
-console.log(radixSort([4, 8, 2964, 1, 56, 7, 63, 333]));
+// console.log(radixSort([4, 8, 2964, 1, 56, 7, 63, 333]));
+
+let SLL = new SinglyLinkedList();
+console.log(SLL.push(4));
+console.log(SLL.push(6));
+console.log(SLL.push(8));
+// console.log(SLL.shift());
+// console.log(SLL.shift());
+// console.log(SLL.shift());
+// console.log(SLL.unshift("add me"));
+// console.log(SLL.get(3));
+// console.log(SLL.set(0, 9));
+// console.log(SLL.insert(1, "first"));
+// console.log(SLL.insert(0, "zrero"));
+// console.log(SLL.set(2, "seven"));
+console.log(SLL.reverse());
+console.log(SLL);
