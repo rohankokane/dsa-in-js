@@ -107,12 +107,10 @@ export class SinglyLinkedList {
     let next;
     let prev = null;
     for (let i = 0; i < this.length; i++) {
-      if (node) {
-        next = node.next;
-        node.next = prev;
-        prev = node;
-        node = next;
-      }
+      next = node.next;
+      node.next = prev;
+      prev = node;
+      node = next;
     }
     return this;
   }
